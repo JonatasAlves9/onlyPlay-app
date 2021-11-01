@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "player-music",
+    "slug": "player-music",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "player-music"
+}
