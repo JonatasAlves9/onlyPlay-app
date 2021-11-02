@@ -5,6 +5,7 @@ export const theme = {
     secondary: "#C67D0F",
     dark: "#333333",
     light: "#FFFFFF",
+    gray: "#828282",
   },
   fonts: {
     black: "Roboto_900Black",
