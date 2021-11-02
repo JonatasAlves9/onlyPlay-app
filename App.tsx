@@ -1,5 +1,5 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { StatusBar } from "react-native";
 import { ThemeProvider } from "styled-components/native";
 import { Home } from './src/screens/Home';
 import AppLoading from 'expo-app-loading';
@@ -26,6 +26,7 @@ export default function App() {
 
   return (
     <ThemeProvider theme={theme}>
+      <StatusBar barStyle={'light-content'} />
       <Home />
     </ThemeProvider>
   );
