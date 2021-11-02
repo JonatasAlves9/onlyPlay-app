@@ -18,7 +18,6 @@ export function Header() {
             <ViewSearch>
                 <IconSearch name={"search"} color={theme.colors.dark} size={22} />
             </ViewSearch>
-
         </Container>
     );
 }
